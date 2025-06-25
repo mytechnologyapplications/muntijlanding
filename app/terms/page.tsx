@@ -21,8 +21,8 @@ export default function TermsPage() {
             </h3>
             <ul className="list-disc pl-5 space-y-2">
               <li className="text-gray-600">
-                يحق لك استخدام خدمات "مُنْتِج" لطلب المنتجات والعروض المتوفرة
-                عبر التطبيق أو الموقع.
+                يحق لك استخدام خدمات &quot;مُنْتِج&quot; لطلب المنتجات والعروض
+                المتوفرة عبر التطبيق أو الموقع.
               </li>
               <li className="text-gray-600">
                 يجب أن تكون المعلومات التي تقدمها دقيقة ومحدثة.

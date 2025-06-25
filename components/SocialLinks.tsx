@@ -1,12 +1,8 @@
 import {
-  SnapchatIcon,
   InstagramIcon,
   FacebookIcon,
-  GoogleIcon,
   YouTubeIcon,
   LinkedInIcon,
-  WhatsAppIcon,
-  TikTokIcon,
   XIcon,
 } from "./Icons";
 import clsx from "clsx";
@@ -74,7 +70,9 @@ const SocialLinks = ({ darkMode = false }: { darkMode?: boolean }) => {
           )}
           aria-label={link.label}
         >
-          <link.icon className={clsx(darkMode && "size-5", !darkMode && "size-8")} />
+          <link.icon
+            className={clsx(darkMode && "size-5", !darkMode && "size-8")}
+          />
         </a>
       ))}
     </div>
