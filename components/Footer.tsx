@@ -38,7 +38,7 @@ export default function Footer() {
         { link: "about", title: "عن منتج" },
         { link: "contact", title: "تواصل معنا" },
         { link: "privacy-policy", title: "سياسة الخصوصية" },
-        { link: "terms-and-conditions", title: "الشروط والأحكام" },
+        { link: "terms", title: "الشروط والأحكام" },
       ],
     },
     {

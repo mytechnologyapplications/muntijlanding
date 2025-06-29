@@ -9,7 +9,7 @@
   --color-foreground: var(--foreground);
   --color-primary: #bb3e3e;
   --color-primary-hover: #a02c2c;
-  
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -46,6 +46,19 @@
 
 html {
   direction: rtl;
+  font-size: 16px; /* Default font size for desktop */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
 }
 
 body {

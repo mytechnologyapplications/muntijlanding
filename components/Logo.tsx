@@ -13,7 +13,7 @@ const Logo = ({
   return (
     <Link href="/" className="hover:scale-95 transition-transform duration-300">
       <Image
-        src={darkMode ? "/Muntig  Logo Dark.svg" : "/Muntig  Logo.svg"}
+        src={darkMode ? "/muntig-logo-dark.svg" : "/muntig-logo.svg"}
         alt="Muntij Logo"
         width={width}
         height={height}
